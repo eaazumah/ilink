@@ -1,33 +1,84 @@
-.App {
-  text-align: center;
+.particles {
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.brand {
+	color: whitesmoke;
+	font-weight: bolder;
+}
+.nav-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	/* width: "100%"; */
+}
+.rowStatistics {
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-white {
+	color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.statistics-item {
+	padding-top: 8;
+	padding-bottom: 8;
+	color: "#0080ff";
+	font-size: 50;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-container {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.footer-header {
+	color: white;
+	font-size: 25px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+	.rowStatistics {
+		margin-top: 150px;
+		margin-bottom: 150px;
+	}
+}
+
+@media (min-width: 992px) {
+	.particles {
+		height: 900px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* down */
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 100%;
+		padding: 0px;
+		max-width: none;
+	}
+	.particles {
+		height: 500px;
+	}
+
+	.rowStatistics {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+}
+
+@media (max-width: 992px) {
 }
